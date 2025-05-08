@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Simple Quiz App</title>
+     <link href="./style.css" rel="stylesheet">
+     <script src="./index.js" rel="js" defer ></script>
+ </head>
+ <body>
+  <h1>Simple Quiz App</h1>
+  <h2 id="score">Score: 0</h2>
+ <div id="wrapper">
+ <div id="quizCard">
+     <div id="innerCard">
+         <div id="frontCard">
+             <div id="questionDiv">
+                 <p id="quest">This is a Question</p>
+     
+                 <div class="radDiv">
+                     <label for="rad1" id="rad1L">Radio 1</label>
+                     <input id="rad1" type="radio" name="radOp" checked>
+                 </div>
+ 
+                 <div class="radDiv">
+                     <label for="rad2" id="rad2L">Radio 2</label>
+                     <input id="rad2" type="radio" name="radOp">
+                 </div>
+ 
+                 <div class="radDiv">
+                 <label for="rad3" id="rad3L">Radio 3</label>
+                 <input id="rad3" type="radio" name="radOp">
+                 </div>
+ </div>
+     </div>
+         <div id="backCard">
+             <div id="answerDiv">
+                 <p id="passOrFail">Correct!</p>
+                 <a id="exp" href="https://en.wikipedia.org/wiki/Emily_Hobhouse"><p>Eplanation</p></a>
+             </div>
+         </div>
+         </div>
+             </div>
+         </div>
+   <div id="btnDiv">
+     <button id="enterBtn" class="hidden">Enter</button>
+     <button id="nxt" class="hidden">Next</button>
+   </div>          
+ 
+ </body>
+ </html>
